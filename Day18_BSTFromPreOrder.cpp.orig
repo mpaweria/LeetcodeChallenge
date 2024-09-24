@@ -1,5 +1,7 @@
+<<<<<<< HEAD
+=======
 // Approach 1   TC: O(NlogN)
-
+>>>>>>> 7ae714f (LC Day 18)
 class Solution {
 public:
     int i = 0;
@@ -31,7 +33,10 @@ public:
 
         return buildTree(preorder, inorder, 0, preorder.size()-1);
     }
+<<<<<<< HEAD
+=======
 };
+
 
 // Approach 2  TC: O(N)
 class Solution {
@@ -52,4 +57,5 @@ public:
         int i = 0;
         return buildTree(preorder, i, INT_MAX);
     }
+>>>>>>> 7ae714f (LC Day 18)
 };
